@@ -1,3 +1,4 @@
-const numbers = [1, 5, 2, 8];
-const max = Math.max(...numbers);
-console.log(max); // 8
+function fibonacci(n) {
+  if (n <= 1) return n;
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
